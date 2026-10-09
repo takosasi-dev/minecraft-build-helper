@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "buildhelper:recipe_rally_beacon" },
+    "tags": ["crafting_table"],
+    "unlock": [{ "item": "minecraft:ender_pearl" }],
+    "pattern": [
+      " G ",
+      "GEG",
+      "OOO"
+    ],
+    "key": {
+      "G": { "item": "minecraft:gold_ingot" },
+      "E": { "item": "minecraft:ender_pearl" },
+      "O": { "item": "minecraft:obsidian" }
+    },
+    "result": { "item": "buildhelper:rally_beacon", "count": 1 }
+  }
+}

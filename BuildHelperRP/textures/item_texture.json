@@ -1,0 +1,15 @@
+{
+  "resource_pack_name": "BuildHelperRP",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "buildhelper_blueprint_wand": {
+      "textures": "textures/items/blueprint_wand"
+    },
+    "buildhelper_rally_beacon": {
+      "textures": "textures/items/rally_beacon"
+    },
+    "buildhelper_guide_book": {
+      "textures": "textures/items/guide_book"
+    }
+  }
+}

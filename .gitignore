@@ -1,0 +1,18 @@
+# --- ビルド成果物(ソースからいつでも作り直せるので含めない) ---
+dist/
+*.mcaddon
+*.mcpack
+*.zip
+
+# --- テストが BuildHelperBP/scripts から写して読む物(test.mjs が毎回作り直す) ---
+tools/harness/*.js
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- OS/エディタ ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
